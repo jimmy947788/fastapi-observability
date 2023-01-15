@@ -9,6 +9,7 @@ Observe the FastAPI application with three pillars of observability on [Grafana]
 ![Observability Architecture](./images/observability-arch.png)
 
 ## Table of contents
+
 - [FastAPI with Observability](#fastapi-with-observability)
   - [Table of contents](#table-of-contents)
   - [Quick Start](#quick-start)
@@ -54,6 +55,7 @@ Observe the FastAPI application with three pillars of observability on [Grafana]
    bash trace.sh
    ```
 
+   >  Windows系統可以用 [siege-windows](https://github.com/ewwink/siege-windows)，解壓縮後放到 `C:\siege-windows`並加到環境變數`$PATH`，再把`etc\siegerc`複製到`C:\Users\{username}\.siegerc`並修改.siegerc中的`log`路徑，最後就可以用siege指令了。
 4. Check predefined dashboard `FastAPI Observability` on Grafana [http://localhost:3000/](http://localhost:3000/)
 
    Dashboard screenshot:
